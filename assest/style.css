@@ -1,0 +1,53 @@
+.bg-banner{
+    text-align:center; 
+    background-color: whitesmoke; 
+}
+.list ul{
+    list-style-type: none;
+}
+.button{
+    border-radius: 12px;
+}
+.box-color-blue{
+    background-color: blue;
+}
+.box-color-grey{
+    background-color: gray;
+}
+.box-color-red{
+    background-color: red;
+}
+.box.content{
+    float:left;
+}
+.list-group .list-group-item{
+    background: none;
+    color: white;
+
+}
+.box-color-green{
+    background-color: green;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.table{
+    background-color: black;
+    
+    color: white;
+
+}
+.box-color-white{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.box-color-black{
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+h6{
+    color: yellow;
+}
