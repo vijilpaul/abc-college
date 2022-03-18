@@ -2,3 +2,96 @@
     text-align:center; 
     background-color: whitesmoke; 
 }
+:root {
+    --color-set: #0d6efd;
+    --white: #ffffff;
+    --color-set2: #0d5fd9;
+    --color-set3: yellow;
+    --text-color:#4a4a4a;
+    --color-set-opacity: rgba(13,110,253, 0.5);
+}
+.nav-bg{
+    background-color: var(--color-set);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-item .nav-link{
+    color: var(--white);
+}
+
+.nav-item .nav-link.active, .nav-item .nav-link:hover{
+    background-color: var(--color-set2);
+    color: var(--color-set3);
+}
+.logo-wrap img{
+    max-width: 80px;
+}
+.list-group-item a{
+    font-size: 13px;
+    color: var(--text-color);
+    text-decoration:none;
+   
+}
+.content, .list-group-item a:hover, .icon-color, .logo-wrap h1, .logo-wrap h1:hover{
+    color: var(--color-set);
+}
+.carousel-caption.bg-blue-caption{
+    background-color: var(--color-set-opacity);
+    bottom: 2.25rem;
+}
+.navbar .navbar-toggler:hover, .navbar .navbar-toggler:focus{
+    border:none;
+    box-shadow:none;
+}
+.footer-image{
+    font-size: 15px;
+}
+.list-dei a{
+    background: none;
+    color: var(--color-white);
+    opacity: 0.8;
+    font-size: small;
+}
+.list-dei a:hover{
+    background: none;
+    opacity: 1;
+    color: var(--color-white);
+}
+.footer-top, .content {
+    background: #444444;
+}
+@media screen and (min-width: 320px) {
+    .navbar-brand{
+        justify-content: center;
+    }
+    .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .carousel-caption p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .carousel-caption h3{
+        font-size: small;
+    }
+}
+@media screen and (min-width: 768px) {
+    .navbar-brand{
+        justify-content: start;
+    }
+   .footer-bottom {
+       font-size: 10px;
+   }
+}
+@media screen and (min-width: 999px) {
+
+}
+.link-primary{
+    text-decoration: none;
+}
